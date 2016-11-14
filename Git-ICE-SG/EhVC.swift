@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  Git-ICE-SG
 //
 //  Created by Ganapam,Venkata Suresh Reddy on 11/14/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class EhVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
