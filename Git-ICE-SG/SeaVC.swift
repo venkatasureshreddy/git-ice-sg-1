@@ -9,7 +9,16 @@
 import UIKit
 
 class SeaVC: UIViewController {
+    
+    
+    @IBOutlet weak var nameTF: UITextField!
+    
+    @IBOutlet weak var outputLBL: UILabel!
 
+    @IBAction func clickMe(sender: AnyObject) {
+        
+        outputLBL.text! = nameTF.text!
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
