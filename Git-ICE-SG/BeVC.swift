@@ -21,7 +21,7 @@ class BeeVC: UIViewController {
     }
 
     @IBAction func kumarBTN(sender: AnyObject) {
-        print("Added a button")
+        print("Added a button first row")
     }
 
 }
