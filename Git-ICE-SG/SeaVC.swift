@@ -17,7 +17,7 @@ class SeaVC: UIViewController {
 
     @IBAction func clickMe(sender: AnyObject) {
         
-        outputLBL.text! = nameTF.text!
+        outputLBL.text! = nameTF.text! + "is crazy"
     }
     override func viewDidLoad() {
         super.viewDidLoad()
