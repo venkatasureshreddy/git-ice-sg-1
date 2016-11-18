@@ -9,6 +9,15 @@
 import UIKit
 
 class EhVC: UIViewController  {
+    
+    
+    @IBOutlet weak var nameLBL: UILabel!
+    
+    
+    @IBAction func ChangeBTN(sender: AnyObject) {
+        
+        nameLBL.text = "suresh"
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
